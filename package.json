@@ -1,0 +1,24 @@
+{
+  "name": "typescript-review",
+  "version": "1.0.0",
+  "description": "A typescript project for review the basics of OOP and DDD design applied to a simple domain",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "tsc"
+  },
+    "author": "Gerardo Palacin",
+    "license": "MIT",
+  "keywords": [
+    "typescript",
+    "oop",
+    "ddd",
+    "crm",
+    "sales"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
